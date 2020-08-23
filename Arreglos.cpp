@@ -78,8 +78,12 @@ int main()
                 if (numberOfFiles < 1000)   // Si queda hueco
                 {
                     cout << "Introduce el nombre del archivo: ";
+
+
+                    //Arrleglo mio
                     cin.ignore();
                     getline(cin, files[numberOfFiles].name);
+
                     cout << "Introduce el tamaño en KB: ";
                     cin >> files[numberOfFiles].size;
                     numberOfFiles++;  // Y tenemos una ficha más
